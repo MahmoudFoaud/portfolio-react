@@ -1,0 +1,27 @@
+.home{
+    height: 100vh;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.home__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.home__container h4{
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.home__container .me{
+    width: 330px;
+    height: 400px;
+    background: linear-gradient(var (--color-primary), transparent);
+    border-radius: 12rem 12rem 0 0;
+    margin: 40px auto;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    overflow: hidden;
+}
+
+
