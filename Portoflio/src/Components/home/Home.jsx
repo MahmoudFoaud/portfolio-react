@@ -1,7 +1,7 @@
 import React from 'react'
-import './home.css'
 import ME from '../../assests/me.png'
 import HomeSocials from './HomeSocials'
+import './home.css'
 function Home() {
   return (
     <div className='home' >
@@ -18,7 +18,9 @@ function Home() {
       <div className="me">
         <img src={ME} alt="me" />
       </div>
-       <HomeSocials/>
+      <HomeSocials />
+      <a href="#" className='scroll_down'> Scroll Down </a>
+       
       </div>
     
     </div>

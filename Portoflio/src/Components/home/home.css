@@ -25,3 +25,29 @@
 }
 
 
+.scroll_down{
+    position: absolute;
+    right: -35px;
+    bottom: 80px; 
+    transform: rotate(90deg);
+    font-weight: 500;
+}
+.socials_home{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 50px;
+    position: absolute;
+    gap: 0.8rem;
+    align-items: center;
+}
+.socials_home::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+.socials_home a{
+   font-size: 25px;
+}

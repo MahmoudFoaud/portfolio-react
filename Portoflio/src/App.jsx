@@ -4,16 +4,19 @@ import Contact from './Components/contact/Contact'
 import Nav from './Components/nav/Nav'
 import Services from './Components/services/Services'
 
+
 function App() {
   
 
   return (
     <>
+    <Home/>
+    <About/>
       <Nav/>
-      <About/>
       <Services/>
       <Contact/>  
-      <Home/>
+      
+      
     </>
   )
 }
