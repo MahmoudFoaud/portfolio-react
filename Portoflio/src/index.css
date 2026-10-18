@@ -93,7 +93,15 @@ img{
     width: 100%;
     object-fit: cover;
 }
-
+.top_section h2{ 
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+.top_section h5{
+    text-align: center;
+    color: var(--color-light);
+}
 /* media queries tablet */
 
 @media (max-width : 1024px) {
@@ -113,8 +121,11 @@ img{
     .container{
         width: var(--container-width-ms);
     }
+    section{
+        padding-top: 5rem;
+    }
 
-    section > h2{
+    .top_section h2{
         margin-bottom: 2rem;
     }
 }
