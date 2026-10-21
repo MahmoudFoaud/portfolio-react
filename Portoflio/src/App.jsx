@@ -4,7 +4,7 @@ import Contact from './Components/contact/Contact'
 import Nav from './Components/nav/Nav'
 import Services from './Components/services/Services'
 import Skills from './Components/skills/Skills'
-
+import Project from './Components/projects/Project'
 
 function App() {
   
@@ -14,9 +14,10 @@ function App() {
     <Home/>
     <About/>
     <Skills/>
+     <Project/>
       <Nav/>
       <Services/>
-      <Contact/>  
+      <Contact/> 
       
       
     </>
