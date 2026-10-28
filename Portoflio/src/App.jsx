@@ -15,9 +15,10 @@ function App() {
     <About/>
     <Skills/>
      <Project/>
+    <Contact/> 
       <Nav/>
       <Services/>
-      <Contact/> 
+     
       
       
     </>
