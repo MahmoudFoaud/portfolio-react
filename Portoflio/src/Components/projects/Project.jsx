@@ -40,10 +40,10 @@ const portfolioDate = [
 
 function Projects() {
   return (
-    <section className='projects'>
+    <section id='projects' className='projects'>
       <div className="top_section">
-        <h5>What Skills I Have </h5>
-        <h2>My Experience </h2>
+        <h5>What Experience I Have </h5>
+        <h2>My Projects </h2>
       </div>
 
       <div className="container projects_container">

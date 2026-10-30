@@ -52,7 +52,7 @@ function Skills() {
     <section className="skills" id="skills">
       <div className="top_section">
         <h5> what Skills I Have </h5>
-        <h2> My Experience </h2>
+        <h2> My Skills </h2>
       </div>
 
       <div className="container container_skills">

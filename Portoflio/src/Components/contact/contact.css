@@ -45,3 +45,20 @@
     resize: none;
     color: var(--color-white);
 }
+.contact_container form  button{
+    font-size: 18px;
+    padding: 14px 30px;
+}
+
+@media (max-width:1024px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+@media (max-width:600px) {
+    .contact_container{
+        width: 90%;
+    }
+    
+}

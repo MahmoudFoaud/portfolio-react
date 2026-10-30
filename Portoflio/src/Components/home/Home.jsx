@@ -18,9 +18,9 @@ function Home() {
       <div className="me">
         <img src={ME} alt="me" />
       </div>
-      <HomeSocials />
-      <a href="#" className='scroll_down'> Scroll Down </a>
-       
+      
+      <a href="#about" className='scroll_down'> Scroll Down </a>
+       <HomeSocials />
       </div>
     
     </div>
